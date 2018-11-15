@@ -1,0 +1,52 @@
+
+
+.photos > img{
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 250px; /* Set a small width */
+    height: 250px;
+    display: horizontal;
+    margin-top: 100px;
+    margin-left: 125px;
+
+    
+
+    
+}
+
+html{
+background: #DAD299;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+.bigImage > img{
+    display: block;
+    width: auto;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1{
+    text-align: center;
+    font-style: oblique;
+
+
+}
+
+        .container {width:600px;margin:auto;
+        }
+
+        .photoContainer{text-align:center;width: 600px;
+        }
+
+
+
+        img {padding-right: 2px;}
+        .thumbnails {text-align:center;width:600px;}
+        
