@@ -1,7 +1,7 @@
 
 
-.photos > img{
-    border-radius: 4px;  /* Rounded border */
+#photos > img{
+    border-radius: 100px;  /* Rounded border */
     padding: 5px; /* Some padding */
     width: 250px; /* Set a small width */
     height: 250px;
@@ -9,9 +9,11 @@
     margin-top: 100px;
     margin-left: 125px;
 
-    
+}
 
-    
+#photos
+{
+text-align: center;
 }
 
 html{
@@ -23,7 +25,7 @@ background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, F
 
 
 
-.bigImage > img{
+#bigImage > img{
     display: block;
     width: auto;
     height: 300px;
@@ -39,14 +41,13 @@ h1{
 
 }
 
-        .container {width:600px;margin:auto;
-        }
+#container {width:600px;margin:auto;
+}
 
-        .photoContainer{text-align:center;width: 600px;
-        }
+#photoContainer{text-align:center;width: 600px;
+}
 
 
 
-        img {padding-right: 2px;}
-        .thumbnails {text-align:center;width:600px;}
-        
+img {padding-right: 2px;}
+.thumbnails {text-align:center;width:600px;}
